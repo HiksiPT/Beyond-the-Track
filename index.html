@@ -26,6 +26,14 @@
 <div id="loading"><div class="box"><h2>Beyond the Track</h2><div class="bar"><i id="ld-bar"></i></div><div class="msg" id="ld-msg">Loading…</div></div></div>
 <div id="nowebgl" class="fatal" hidden><div class="card"><h3>WebGL 2 is not available</h3><p>Beyond the Track needs a browser with WebGL 2 (a recent Chrome, Edge, Firefox or Safari) and hardware acceleration turned on. Check your browser settings or try another browser.</p></div></div>
 <noscript><div class="fatal"><div class="card"><h3>JavaScript is required</h3><p>Please enable JavaScript to play.</p></div></div></noscript>
+<script>
+  // If the game code never starts (blocked script, wrong hosting set-up, very old browser), say so instead of loading forever.
+  setTimeout(function () {
+    if (window.__bttBooted) return;
+    var m = document.getElementById('ld-msg');
+    if (m) m.innerHTML = 'The game could not start. Try reloading the page.<br>If you host this yourself, publish the <b>built</b> site (npm run build → dist/) — on GitHub Pages set Settings → Pages → Source to “GitHub Actions”.';
+  }, 15000);
+</script>
 <script type="module" src="/src/main.js"></script>
 </body>
 </html>

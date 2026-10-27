@@ -10,6 +10,8 @@ function webglOk() {
   try { const c = document.createElement('canvas'); return !!(c.getContext('webgl2')); } catch { return false; }
 }
 
+window.__bttBooted = true;   // tells the watchdog in index.html that the code loaded
+
 function boot() {
   if (!webglOk()) {
     document.getElementById('loading').hidden = true;
