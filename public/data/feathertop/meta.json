@@ -1,0 +1,67 @@
+{
+ "id": "feathertop",
+ "name": "Mount Feathertop",
+ "state": "VIC",
+ "origin": {
+  "lat": -36.8941627,
+  "lon": 147.1381339
+ },
+ "m_per_deg": {
+  "lat": 110975.63383382451,
+  "lon": 89134.97682883921
+ },
+ "encoding": "uint16 LE, metres = v / 10 - 50, row 0 = north, cell centres at edge + (i + 0.5) * cell",
+ "near": {
+  "w": 1044,
+  "h": 972,
+  "bbox": [
+   146.98,
+   -37.06,
+   147.27,
+   -36.79
+  ],
+  "xn": [
+   -14095.26,
+   -18403.9,
+   11753.88,
+   11559.52
+  ],
+  "min": 379.1936340332031,
+  "max": 1904.460205078125
+ },
+ "far": {
+  "w": 600,
+  "h": 550,
+  "bbox": [
+   146.55,
+   -37.45,
+   147.75,
+   -36.35
+  ],
+  "xn": [
+   -52423.3,
+   -61684.4,
+   54538.67,
+   60388.8
+  ],
+  "min": 172.65338134765625,
+  "max": 1968.76513671875
+ },
+ "sources": [
+  {
+   "what": "Elevation",
+   "name": "National Digital Elevation Model 1 Second (DEM-S, derived from SRTM)",
+   "by": "Geoscience Australia",
+   "service": "DEM_SRTM_1Second_2024",
+   "url": "https://pid.geoscience.gov.au/dataset/ga/72759",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "what": "Tracks, huts, peaks, water",
+   "name": "OpenStreetMap",
+   "by": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0"
+  }
+ ]
+}

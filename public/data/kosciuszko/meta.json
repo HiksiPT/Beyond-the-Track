@@ -1,0 +1,67 @@
+{
+ "id": "kosciuszko",
+ "name": "Mount Kosciuszko",
+ "state": "NSW",
+ "origin": {
+  "lat": -36.4558,
+  "lon": 148.2635
+ },
+ "m_per_deg": {
+  "lat": 110967.44659119961,
+  "lon": 89642.0797462954
+ },
+ "encoding": "uint16 LE, metres = v / 10 - 50, row 0 = north, cell centres at edge + (i + 0.5) * cell",
+ "near": {
+  "w": 936,
+  "h": 612,
+  "bbox": [
+   148.16,
+   -36.53,
+   148.42,
+   -36.36
+  ],
+  "xn": [
+   -9277.96,
+   -8233.78,
+   14028.99,
+   10630.68
+  ],
+  "min": 400.1514587402344,
+  "max": 2223.5
+ },
+ "far": {
+  "w": 550,
+  "h": 500,
+  "bbox": [
+   147.75,
+   -36.95,
+   148.85,
+   -35.95
+  ],
+  "xn": [
+   -46031.21,
+   -54840.11,
+   52575.08,
+   56127.33
+  ],
+  "min": 198.50315856933594,
+  "max": 2210.581298828125
+ },
+ "sources": [
+  {
+   "what": "Elevation",
+   "name": "National Digital Elevation Model 1 Second (DEM-S, derived from SRTM)",
+   "by": "Geoscience Australia",
+   "service": "DEM_SRTM_1Second_2024",
+   "url": "https://pid.geoscience.gov.au/dataset/ga/72759",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "what": "Tracks, huts, peaks, water",
+   "name": "OpenStreetMap",
+   "by": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0"
+  }
+ ]
+}

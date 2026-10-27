@@ -1,0 +1,67 @@
+{
+ "id": "bogong",
+ "name": "Mount Bogong",
+ "state": "VIC",
+ "origin": {
+  "lat": -36.7324,
+  "lon": 147.3058
+ },
+ "m_per_deg": {
+  "lat": 110972.60814325327,
+  "lon": 89322.7165164955
+ },
+ "encoding": "uint16 LE, metres = v / 10 - 50, row 0 = north, cell centres at edge + (i + 0.5) * cell",
+ "near": {
+  "w": 1080,
+  "h": 792,
+  "bbox": [
+   147.15,
+   -36.85,
+   147.45,
+   -36.63
+  ],
+  "xn": [
+   -13916.48,
+   -13050.38,
+   12880.34,
+   11363.6
+  ],
+  "min": 294.75,
+  "max": 1983.5
+ },
+ "far": {
+  "w": 600,
+  "h": 525,
+  "bbox": [
+   146.7,
+   -37.25,
+   147.9,
+   -36.2
+  ],
+  "xn": [
+   -54111.7,
+   -57439.42,
+   53075.56,
+   59081.82
+  ],
+  "min": 165.42019653320312,
+  "max": 1968.76513671875
+ },
+ "sources": [
+  {
+   "what": "Elevation",
+   "name": "National Digital Elevation Model 1 Second (DEM-S, derived from SRTM)",
+   "by": "Geoscience Australia",
+   "service": "DEM_SRTM_1Second_2024",
+   "url": "https://pid.geoscience.gov.au/dataset/ga/72759",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "what": "Tracks, huts, peaks, water",
+   "name": "OpenStreetMap",
+   "by": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0"
+  }
+ ]
+}

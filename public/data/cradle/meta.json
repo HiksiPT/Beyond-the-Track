@@ -1,0 +1,67 @@
+{
+ "id": "cradle",
+ "name": "Cradle Mountain",
+ "state": "TAS",
+ "origin": {
+  "lat": -41.6846,
+  "lon": 145.9513
+ },
+ "m_per_deg": {
+  "lat": 111067.13328439704,
+  "lon": 83258.69936320082
+ },
+ "encoding": "uint16 LE, metres = v / 10 - 50, row 0 = north, cell centres at edge + (i + 0.5) * cell",
+ "near": {
+  "w": 792,
+  "h": 648,
+  "bbox": [
+   145.84,
+   -41.78,
+   146.06,
+   -41.6
+  ],
+  "xn": [
+   -9266.69,
+   -10595.8,
+   9050.22,
+   9396.28
+  ],
+  "min": 335.3699951171875,
+  "max": 1538.42822265625
+ },
+ "far": {
+  "w": 500,
+  "h": 400,
+  "bbox": [
+   145.45,
+   -42.1,
+   146.45,
+   -41.3
+  ],
+  "xn": [
+   -41737.59,
+   -46137.29,
+   41521.11,
+   42716.42
+  ],
+  "min": 15.640633583068848,
+  "max": 1596.2178955078125
+ },
+ "sources": [
+  {
+   "what": "Elevation",
+   "name": "National Digital Elevation Model 1 Second (DEM-S, derived from SRTM)",
+   "by": "Geoscience Australia",
+   "service": "DEM_SRTM_1Second_2024",
+   "url": "https://pid.geoscience.gov.au/dataset/ga/72759",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "what": "Tracks, huts, peaks, water",
+   "name": "OpenStreetMap",
+   "by": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "id": "frenchmans",
+ "name": "Frenchmans Cap",
+ "state": "TAS",
+ "origin": {
+  "lat": -42.2692,
+  "lon": 145.8303
+ },
+ "m_per_deg": {
+  "lat": 111078.48339906315,
+  "lon": 82500.71512873287
+ },
+ "encoding": "uint16 LE, metres = v / 10 - 50, row 0 = north, cell centres at edge + (i + 0.5) * cell",
+ "near": {
+  "w": 864,
+  "h": 540,
+  "bbox": [
+   145.75,
+   -42.32,
+   145.99,
+   -42.17
+  ],
+  "xn": [
+   -6624.81,
+   -5642.79,
+   13175.36,
+   11018.99
+  ],
+  "min": 151.8970947265625,
+  "max": 1417.314208984375
+ },
+ "far": {
+  "w": 500,
+  "h": 400,
+  "bbox": [
+   145.35,
+   -42.65,
+   146.35,
+   -41.85
+  ],
+  "xn": [
+   -39625.09,
+   -42298.69,
+   42875.62,
+   46564.1
+  ],
+  "min": -9.241778373718262,
+  "max": 1596.2178955078125
+ },
+ "sources": [
+  {
+   "what": "Elevation",
+   "name": "National Digital Elevation Model 1 Second (DEM-S, derived from SRTM)",
+   "by": "Geoscience Australia",
+   "service": "DEM_SRTM_1Second_2024",
+   "url": "https://pid.geoscience.gov.au/dataset/ga/72759",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "what": "Tracks, huts, peaks, water",
+   "name": "OpenStreetMap",
+   "by": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0"
+  }
+ ]
+}

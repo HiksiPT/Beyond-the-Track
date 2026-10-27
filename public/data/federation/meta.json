@@ -1,0 +1,67 @@
+{
+ "id": "federation",
+ "name": "Federation Peak",
+ "state": "TAS",
+ "origin": {
+  "lat": -43.2714,
+  "lon": 146.4758
+ },
+ "m_per_deg": {
+  "lat": 111097.99476778542,
+  "lon": 81181.22838038897
+ },
+ "encoding": "uint16 LE, metres = v / 10 - 50, row 0 = north, cell centres at edge + (i + 0.5) * cell",
+ "near": {
+  "w": 1080,
+  "h": 576,
+  "bbox": [
+   146.38,
+   -43.34,
+   146.68,
+   -43.18
+  ],
+  "xn": [
+   -7777.16,
+   -7621.32,
+   16577.21,
+   10154.36
+  ],
+  "min": 51.911312103271484,
+  "max": 1154.6226806640625
+ },
+ "far": {
+  "w": 550,
+  "h": 400,
+  "bbox": [
+   145.95,
+   -43.65,
+   147.05,
+   -42.85
+  ],
+  "xn": [
+   -42685.09,
+   -42061.7,
+   46614.26,
+   46816.69
+  ],
+  "min": -8.243142127990723,
+  "max": 1372.0023193359375
+ },
+ "sources": [
+  {
+   "what": "Elevation",
+   "name": "National Digital Elevation Model 1 Second (DEM-S, derived from SRTM)",
+   "by": "Geoscience Australia",
+   "service": "DEM_SRTM_1Second_2024",
+   "url": "https://pid.geoscience.gov.au/dataset/ga/72759",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "what": "Tracks, huts, peaks, water",
+   "name": "OpenStreetMap",
+   "by": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0"
+  }
+ ]
+}

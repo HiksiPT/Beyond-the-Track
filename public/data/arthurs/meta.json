@@ -1,0 +1,67 @@
+{
+ "id": "arthurs",
+ "name": "Western Arthur Range",
+ "state": "TAS",
+ "origin": {
+  "lat": -43.1405,
+  "lon": 146.2671
+ },
+ "m_per_deg": {
+  "lat": 111095.44315580254,
+  "lon": 81354.99706608451
+ },
+ "encoding": "uint16 LE, metres = v / 10 - 50, row 0 = north, cell centres at edge + (i + 0.5) * cell",
+ "near": {
+  "w": 1260,
+  "h": 864,
+  "bbox": [
+   146.1,
+   -43.24,
+   146.45,
+   -43.0
+  ],
+  "xn": [
+   -13594.42,
+   -11054.0,
+   14879.83,
+   15608.91
+  ],
+  "min": 35.75,
+  "max": 1154.6226806640625
+ },
+ "far": {
+  "w": 575,
+  "h": 450,
+  "bbox": [
+   145.7,
+   -43.6,
+   146.85,
+   -42.7
+  ],
+  "xn": [
+   -46136.42,
+   -51048.36,
+   47421.83,
+   48937.54
+  ],
+  "min": -4.847232818603516,
+  "max": 1372.0023193359375
+ },
+ "sources": [
+  {
+   "what": "Elevation",
+   "name": "National Digital Elevation Model 1 Second (DEM-S, derived from SRTM)",
+   "by": "Geoscience Australia",
+   "service": "DEM_SRTM_1Second_2024",
+   "url": "https://pid.geoscience.gov.au/dataset/ga/72759",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "what": "Tracks, huts, peaks, water",
+   "name": "OpenStreetMap",
+   "by": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0"
+  }
+ ]
+}

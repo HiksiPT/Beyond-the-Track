@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Beyond the Track: Australian Expeditions</title>
+<meta name="description" content="A browser 3D mountaineering adventure on real Australian terrain rebuilt from Geoscience Australia elevation data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,800&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+</head>
+<body>
+<canvas id="view" aria-label="3D view of the mountain"></canvas>
+<div id="labels" aria-hidden="true"></div>
+<div id="hud" hidden></div>
+<div id="radio" hidden></div>
+<div id="screen-main" class="screen" hidden></div>
+<div id="screen-panel" class="screen solid" hidden></div>
+<div id="modal" class="modal" hidden></div>
+<div id="dialogue" hidden></div>
+<div id="toast" class="glass" hidden role="status"></div>
+<div id="caption" hidden aria-live="polite"></div>
+<div id="touch" hidden></div>
+<div id="photo-frame" hidden><div class="pf-grid"></div><div class="pf-zoom" id="pf-zoom"></div><div class="pf-hint">Click or Space: take photo · drag to aim · wheel / +/−: zoom · Esc: put the camera away</div><div class="pf-flash"></div></div>
+<div class="sim-banner">Simulation · not real-world route advice</div>
+<div id="loading"><div class="box"><h2>Beyond the Track</h2><div class="bar"><i id="ld-bar"></i></div><div class="msg" id="ld-msg">Loading…</div></div></div>
+<div id="nowebgl" class="fatal" hidden><div class="card"><h3>WebGL 2 is not available</h3><p>Beyond the Track needs a browser with WebGL 2 (a recent Chrome, Edge, Firefox or Safari) and hardware acceleration turned on. Check your browser settings or try another browser.</p></div></div>
+<noscript><div class="fatal"><div class="card"><h3>JavaScript is required</h3><p>Please enable JavaScript to play.</p></div></div></noscript>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

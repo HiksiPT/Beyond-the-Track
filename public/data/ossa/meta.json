@@ -1,0 +1,67 @@
+{
+ "id": "ossa",
+ "name": "Mount Ossa",
+ "state": "TAS",
+ "origin": {
+  "lat": -41.8707,
+  "lon": 146.033
+ },
+ "m_per_deg": {
+  "lat": 111070.74354679069,
+  "lon": 83018.34631808632
+ },
+ "encoding": "uint16 LE, metres = v / 10 - 50, row 0 = north, cell centres at edge + (i + 0.5) * cell",
+ "near": {
+  "w": 936,
+  "h": 792,
+  "bbox": [
+   145.93,
+   -41.97,
+   146.19,
+   -41.75
+  ],
+  "xn": [
+   -8550.89,
+   -11029.32,
+   13033.88,
+   13406.24
+  ],
+  "min": 356.2313537597656,
+  "max": 1608.0423583984375
+ },
+ "far": {
+  "w": 550,
+  "h": 425,
+  "bbox": [
+   145.5,
+   -42.3,
+   146.6,
+   -41.45
+  ],
+  "xn": [
+   -44248.78,
+   -47682.67,
+   47071.4,
+   46727.46
+  ],
+  "min": 43.35138702392578,
+  "max": 1596.2178955078125
+ },
+ "sources": [
+  {
+   "what": "Elevation",
+   "name": "National Digital Elevation Model 1 Second (DEM-S, derived from SRTM)",
+   "by": "Geoscience Australia",
+   "service": "DEM_SRTM_1Second_2024",
+   "url": "https://pid.geoscience.gov.au/dataset/ga/72759",
+   "licence": "CC BY 4.0"
+  },
+  {
+   "what": "Tracks, huts, peaks, water",
+   "name": "OpenStreetMap",
+   "by": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0"
+  }
+ ]
+}
